@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="dell04" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="dell04">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/go/src/DES-go" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/archives" />
+            <excludedPath path="/go/src/DES-go/reports" />
+            <excludedPath path="/go/src/DES-go/archives" />
+            <excludedPath local="true" path="$PROJECT_DIR$/reports" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
