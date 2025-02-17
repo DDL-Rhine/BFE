@@ -5,8 +5,8 @@ This repository contains the scheduler implementation and a heterogeneous GPU cl
 
 ## Highlights
 - **Fragmentation measure: **We propose a GPU fragmentation measurement to assess the degree of GPU fragmentation in the cluster, considering the task size and the GPU heterogeneity.
--**Math Computation of GPU Heterogeneity: **We provide a scientific mathematical computation method when considering GPU heterogeneity that improves GPU utilization and task completion time in heterogeneous environment.
--**Novel Scheduling Algorithm: **We present a task scheduling algorithm based on Particle Swarm Optimization to minimize the cluster's average TCT and GPU fragmentation size.
+- **Math Computation of GPU Heterogeneity: **We provide a scientific mathematical computation method when considering GPU heterogeneity that improves GPU utilization and task completion time in heterogeneous environment.
+- **Novel Scheduling Algorithm: **We present a task scheduling algorithm based on Particle Swarm Optimization to minimize the cluster's average TCT and GPU fragmentation size.
 
 ## Contents
 ```
@@ -29,9 +29,12 @@ Python == 3.9
 Go == 1.17.9
 
 ## How to prepare the data
-`cd cases`
-`python3 pod_norm.py`
-
+```
+cd cases
+python3 pod_norm.py
+```
 ## How to use
-`cd ..`
-`go run main.go`
+```
+cd ..
+go run main.go
+```
