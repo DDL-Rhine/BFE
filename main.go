@@ -24,7 +24,7 @@ var defaultConfig = &Config{
 	Workload:     "light",
 	NumberOfJobs: []int{0, 100},
 	//Algorithms:   []string{"hydra_alpha_0", "hydra_alpha_1", "hydra_alpha_3", "hydra_alpha_5", "hydra_alpha_7", "hydra_alpha_9", "allox", "gavel", "chronus"},
-	Algorithms: []string{"hydra_alpha_0", "hydra_alpha_1", "hydra_alpha_3", "hydra_alpha_5", "hydra_alpha_7", "hydra_alpha_9"},
+	Algorithms: []string{"hydra_alpha_0"},
 }
 
 func main() {
